@@ -12,7 +12,7 @@ const app_routes: Routes = [
     { path: 'pageweb', component: PagewebComponent},
     { path: 'cloudcompu', component: CloudcompuComponent},
     { path: '**', pathMatch: 'full', redirectTo: ''}
-
+    
 ];
 
 @NgModule({
