@@ -8,6 +8,7 @@ import { PagewebComponent } from './pages/pageweb/pageweb.component';
 
 const app_routes: Routes = [
     { path: '', component: BodyComponent},
+    { path: '#', component: BodyComponent},
     { path: 'dominiohost', component: DominiohostComponent},
     { path: 'pageweb', component: PagewebComponent},
     { path: 'cloudcompu', component: CloudcompuComponent},
